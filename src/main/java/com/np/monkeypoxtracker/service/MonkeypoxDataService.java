@@ -17,7 +17,7 @@ import java.util.List;
 @Service
 public class MonkeypoxDataService {
 
-    private static String VIRUS_DATA_URL = "https://www.cdc.gov/7c5dde7c-fd2a-4cff-b772-8a9319740657";
+    private static String VIRUS_DATA_URL = "https://raw.githubusercontent.com/nparisik/mptracker/main/MPX-Country-Data%20(1).csv";
 
     private List<LocationStats> allStats = new ArrayList<>();
 
